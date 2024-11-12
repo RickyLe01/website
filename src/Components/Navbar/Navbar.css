@@ -1,0 +1,107 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2.25rem 10.625rem;
+}
+
+#logo {
+  position: relative;
+  height: 10rem;
+  width: 10rem;
+  fill: none;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 3.75rem;
+  font-size: 1.25rem;
+}
+
+.nav-connect {
+  padding: 1.25rem 2.5rem;
+  border-radius: 3.125rem;
+  background: linear-gradient(267deg, #F6C6EC 0.36%, #EE80D2 0.36%, #4BB8F9 102.06%);
+  font-size: 1.375rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.nav-connect:hover {
+  transform: scale(1.05);
+}
+
+.nav-menu li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3125rem;
+  cursor: pointer;
+}
+
+.nav-menu li img {
+  display: flex;
+  margin: auto;
+  height: 2.5rem;
+  width: 5rem;
+}
+
+.anchor-link {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-mob-close {
+  display: none;
+}
+
+.nav-mob-open {
+  display: none;
+}
+
+@media (max-width: 48rem) {
+
+  .navbar {
+    margin: 1.25rem 3.125rem;
+  }
+
+  .nav-connect {
+    display: none;
+  }
+
+  .nav-mob-open {
+    display: block;
+    position: fixed;
+    right: 1.875rem;
+  }
+
+  .nav-mob-close {
+    display: block;
+    position: relative;
+    top: 1.875rem;
+    left: 18.125rem;
+    width: 1.875rem;
+  }
+
+  .nav-menu {
+    position: fixed;
+    flex-direction: column;
+    align-items: start;
+    top: 0;
+    gap: 1.875rem;
+    background-color: #00131f;
+    width: 21.875rem;
+    height: 100%;
+    z-index: 2;
+    transition: right 0.5s;
+    right: -21.875rem;
+  }
+
+  .nav-menu li {
+    font-size: 1.875rem;
+    padding-left: 6.25rem;
+    flex-direction: row;
+    gap: 1.25rem;
+  }
+}

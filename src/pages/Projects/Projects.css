@@ -1,0 +1,105 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5rem;
+  margin: 5rem 10.625rem;
+}
+
+.projects-title {
+  position: relative;
+}
+
+.projects-title h1 {
+  padding: 0 1.875rem;
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.project1-sections {
+  display: flex;
+  gap: 5rem;
+}
+
+.project1-right {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.project1-left img {
+  height: 20.3125rem;
+  width: 28.0625rem;
+}
+
+.project1-left img:hover {
+  transform: scale(1.10);
+  border: 0.25rem solid #4BB8F9;
+  border-radius: 0.625rem;
+  transition: 0.3s;
+}
+
+.project1-para {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.project2-sections {
+  display: flex;
+  gap: 5rem;
+}
+
+.project2-left {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.project2-right img {
+  height: 20.3125rem;
+  width: 28.0625rem;
+}
+
+.project2-right img:hover {
+  transform: scale(1.10);
+  border: 0.25rem solid #4BB8F9;
+  border-radius: 0.625rem;
+  transition: 0.3s;
+}
+
+.project2-para {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.project3-sections {
+  display: flex;
+  gap: 5rem;
+}
+
+.project3-right {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.project3-left img {
+  height: 20.3125rem;
+  width: 34.0625rem;
+  border: 10px white;
+}
+
+.project3-para {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
