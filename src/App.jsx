@@ -9,7 +9,7 @@ import Footer from './Components/Footer/Footer'
 import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import Resume from "./pages/Resume/Resume.jsx"
 import Projects from "./pages/Projects/Projects.jsx"
-import ScrollToTop from './pages/ScrolltoTop.jsx'
+import ScrollToTop from './pages/ScrollToTop.jsx'
 
 const App = () => {
   return (
