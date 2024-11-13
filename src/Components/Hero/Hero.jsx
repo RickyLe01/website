@@ -11,8 +11,8 @@ const Hero = () => {
   return (
     <div id='home' className='hero'>
       <img src={profile_img} alt="" />
-      <h1><span>I'm Ricky Le,</span> Frontend Developer based in Seattle</h1>
-      <p>I'm a frontend developer with a focus on Geographic Information Systems. A recent graduate with a Major in Geography: Data Science and a Minor in Informatics along with Data Analytics</p>
+      <h1><span>I'm Ricky Le,</span> Data Engineer based in Seattle</h1>
+      <p>A recent graduate with a Major in Geography: Data Science and a Minor in Informatics along with Data Analytics</p>
       <div className='hero-action'>
         <div className='hero-connect'><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink></div>
         <Link to="/resume" className='hero-resume'>My resume</Link>

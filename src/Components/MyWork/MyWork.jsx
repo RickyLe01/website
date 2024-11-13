@@ -9,7 +9,7 @@ const MyWork = () => {
   return (
     <div id='work' className='mywork'>
       <div className='mywork-title'>
-        <h1>My latest work</h1>
+        <h1>My Latest Work</h1>
       </div>
       <Link to='/projects' className='mywork-container'>
         {mywork_data.map((work, index) => {

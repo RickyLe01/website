@@ -1,5 +1,5 @@
 import React from 'react'
-import './Services.css'
+import './Skills.css'
 import Services_Data from '../../assets/services_data'
 import arrow_icon from '../../assets/arrow_icon.svg'
 
@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <div id='services' className='services'>
       <div className='services-title'>
-        <h1>My Services</h1>
+        <h1>My Skills</h1>
       </div>
       <div className='services-container'>
         {Services_Data.map((service, index) => {
@@ -16,7 +16,7 @@ const Services = () => {
             <h2>{service.s_name}</h2>
             <p>{service.s_desc}</p>
             <div className='services-readmore'>
-              <p>Read More</p>
+              <p>Loading...</p>
               <img src={arrow_icon} alt=''></img>
             </div>
           </div>
