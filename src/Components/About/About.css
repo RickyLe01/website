@@ -113,15 +113,18 @@
     gap: 5rem;
     margin: 3.125rem 4.375rem;
     align-items: start;
+    width: 120%;
   }
 
   .about-title h1 {
     font-size: 3.125rem;
     padding: 0;
+    transform: translateX(60%);
   }
 
   .about-sections {
     flex-direction: column;
+    transform: translateX(20%);
   }
 
   .about-left {
@@ -129,13 +132,12 @@
   }
 
   .about-para {
-    font-size: 1.125rem;
+    font-size: 1.5rem;
     line-height: 2rem;
   }
 
   .about-skill {
-    gap: 1.25rem;
-    align-items: center;
+    display: none;
   }
 
   .about-skill p {
@@ -148,6 +150,7 @@
 
   .about-achievements {
     justify-content: space-between;
+    transform: translateX(17%);
   }
 
   .about-achievement {

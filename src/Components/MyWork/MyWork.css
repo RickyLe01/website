@@ -68,17 +68,19 @@
   .mywork-title h1 {
     padding: 0;
     font-size: 3.125rem;
-    font-weight: 600;
+    transform: translateX(90%);
+    text-align: center;
   }
 
   .mywork-container {
     grid-template-columns: 1fr 1fr;
-    gap: 1.875rem;
+    gap: 5.875rem;
   }
 
   .mywork-container img {
-    width: 100%;
-    height: 100%;
+    width: 250%;
+    height: 150%;
+    transform: translateX(130%);
   }
 
   .mywork-showmore {
@@ -86,5 +88,6 @@
     font-size: 1.125rem;
     margin: 3.125rem auto;
     cursor: pointer;
+    transform: translateX(90%);
   }
 }
